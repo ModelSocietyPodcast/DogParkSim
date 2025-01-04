@@ -70,8 +70,10 @@ def main():
 
     # Sidebar instructions
     st.sidebar.write("Happy Birthday, Rameet!!")
+    st.sidebar.write("This is a simulation of Jemmy's Dog Run in Manhattan.")
     st.sidebar.write("Dogs enter the park at the bottom of the screen and will move around, playing and exploring. When they see bowls of food, they will move towards them and eat them, whereupon more food will appear elsewhere. If they see toys, they will pick them up (but they prioritize food). When they get tired, they will leave the park to go home and nap.")    
-    st.sidebar.write("You can use the sliders to control how busy the dog park is, and how many trees, food bowls, and toys there are.")
+    st.sidebar.write("You can use the sliders to control the size of the dog park, how busy it is (i.e., how often dogs arrive), and how many trees, food bowls, and toys there are.")
+    st.sidebar.write("I hope you enjoy it :)")
 
     # Sidebar controls for user input
     st.sidebar.header("Simulation Settings")
