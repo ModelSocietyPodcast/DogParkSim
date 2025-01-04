@@ -75,14 +75,14 @@ def main():
 
     # Sidebar controls for user input
     st.sidebar.header("Simulation Settings")
+    grid_width = st.sidebar.slider("Width of the Dog Park:", 10, 12, 15)
+    grid_height = st.sidebar.slider("Height of the Dog Park:", 10, 12, 15)
     arrival_rate = st.sidebar.slider("Dog Arrival Rate (probability per step):", 0.01, 1.0, 0.15, step=0.01)
     num_trees = st.sidebar.slider("Number of Trees:", 1, 20, 10)
     num_food_bowls = st.sidebar.slider("Number of Food Bowls:", 1, 10, 3)
     num_toys = st.sidebar.slider("Number of Food Bowls:", 1, 10, 5)
 
     # Grid settings
-    grid_width = 10
-    grid_height = 10
     num_dogs = 25  # Maximum number of dogs
 
     # Button to start simulation
