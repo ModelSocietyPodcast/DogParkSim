@@ -106,7 +106,7 @@ def main():
         for step in range(100):  # Run for 100 steps
             model.step()
             grid_image = render_grid(model)
-            placeholder.image(grid_image, caption=f"Step {step + 1}", use_column_width=True)
+            placeholder.image(grid_image, caption=f"Step {step + 1}", use_container_width=True)
 
 # Run the Streamlit app
 if __name__ == "__main__":
