@@ -74,7 +74,7 @@ def main():
         background-image: url('MadisonSquarePark.png');
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
+        opacity: 0.8;
     }
     </style>
     """,
