@@ -68,8 +68,6 @@ def render_grid(model):
 def main():
     
     st.title("Jemmy's Dog Run Simulation")
-    # Add the background image
-    st.image("MadisonSquarePark.png", use_container_width=True)
 
     # Sidebar instructions
     st.sidebar.markdown("**Happy Birthday, Rameet!!**")
