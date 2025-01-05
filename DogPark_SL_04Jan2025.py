@@ -68,16 +68,17 @@ def render_grid(model):
 def main():
     # Add a background image
     st.markdown(
-        """
-        <style>
-        .stApp {
-            background-image: url('MadisonSquarePark.png');
-            background-size: cover;
-            background-position: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
+    """
+    <style>
+    .stApp {
+        background-image: url('MadisonSquarePark.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
     )
     
     st.title("Jemmy's Dog Run Simulation")
