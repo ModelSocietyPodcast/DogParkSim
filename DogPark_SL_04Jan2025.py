@@ -71,7 +71,7 @@ def main():
     """
     <style>
     .stApp {
-        background-image: url('DogPic1.png');
+        background-image: url('MadisonSquarePark.png');
         background-size: cover;
         background-position: center;
         opacity: 1;
